@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'MainFont';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SLEIGothicTTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'MainFont';
+    font-size: 14px;
+    background-color: whitesmoke;
+}
+
+
+a {
+    text-decoration: none;
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 0;
+    position: relative;
+}
+a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #333;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+footer {
+    display: block;
+    width: 100%;
+    height: 90px;
+    bottom: 0px;
+    /* position: absolute; */
+    border-top: 1px solid #c4c4c4;
+    padding-top: 15px;
+    color: #808080;
+    font-size: 11px;
+  }
+  
+  footer a {
+    display: inline-block;
+    margin: 0 20px 10px 20px;
+    color: #808080; font-size: 11px;
+  }
+  
+  footer a:visited {
+    color: #808080;
+  }
+  
+  footer p {
+    margin-top: 0; margin-bottom: 0;   
+  }
+
+.footerText {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.MainPage {
+  text-align: center;
+}
