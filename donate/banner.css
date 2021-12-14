@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'MainFont';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SLEIGothicTTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'MainFont';
+}
+
+#main-banner {
+    text-align: center;
+}
+
+#banner-text {
+    font-family: "MainFont";
+    color: gray;
+    font-size: 15px;
+}
