@@ -46,7 +46,11 @@
       <script>
         function changeImage() {
           const image = document.getElementById('contact-image');
-          image.src = "../img/facebook.svg"
+          fetch("https://api.github.com/users/cord0318").then((response) => {
+            return response.json();
+          }).then((json) => {
+            image.src = json.avatar_url;
+          });
         }
         changeImage();
       </script>
